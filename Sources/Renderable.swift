@@ -9,5 +9,5 @@
 @_exported import C7
 
 public protocol Renderable {
-    func render(_ path: String, result: (Void throws -> Data) -> Void)
+    func render(_ path: String, result: ((Void) throws -> Data) -> Void)
 }
